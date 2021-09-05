@@ -95,14 +95,14 @@ p{
 
 /* Profile------------- */
 header{
-    background-color:#f3e0ec;
-    color:#05668d ;
+    /* background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%); */
+    /* color:#05668d ; */
     /* color:#f3e0ec; */
-    /* color: white; */
-    font-size:20px;
+    color: white;
+    
     text-align :center;
-    margin-bottom: 3px;
-    /* background-image: url(https://picsum.photos/id/1045/1300/400); */
+    /* margin-bottom: 3px; */
+    background-image: url(https://picsum.photos/id/1045/1300/400?grayscale);
 }
 
 
@@ -111,22 +111,21 @@ header{
 
 /* Projects------------- */
 .projects{
-    background:#f3e0ec;
-    /* background-image: url(https://picsum.photos/id/119/1300/500?blur); */
-
+    color: hsl(0, 0%, 30%);
 
 }
 
 .projects .btn{
     color:#f3e0ec;
-    background:#05668d ;
+    background-color:#232023;
     text-decoration: none;
     padding:8px;
     border-radius: 4px;
     display: inline-block;
 }
 .projects .btn:hover{
-    background: rgb(5, 102, 141,80%);
+    background:  hsl(0, 0%, 90%) ;
+    color:#232023;
 }
 
 .project-item{
@@ -167,13 +166,17 @@ background-image: url(../images/ed.jpg);
 background-position: top right;
 background-size: cover;
 padding-bottom: 100px;
+-webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+      }
 
-}
+
 
 
 /* contact info------------- */
 footer{
     background-color:#34252F;
+    /* background-color: hsl(0, 0%, 30%); */
     color:#f3e0ec ;
     text-align: center;
 }
