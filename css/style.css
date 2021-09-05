@@ -1,0 +1,193 @@
+
+/* https://coolors.co/05668d-028090-00a896-02c39a-f3e0ec  #FFCAAF  34252F*/
+
+/* Blue Sapphire
+Night Blue B97
+Teal Blue BG18
+Bright Parrot Green G19
+Pale Purple RV000 */
+
+/* Global Style------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Dancing Script', cursive; */
+
+
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+body{
+    color:#028090;
+    margin:0;
+    padding:0;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5;
+   
+    
+}
+
+
+img{
+    width:300px;
+}
+
+a{
+    /* color:#f3e0ec; */
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h2{
+     margin:0;
+     font-family: 'Dancing Script', cursive;
+     font-weight:lighter;
+     letter-spacing:1px;
+     font-size: 40px;
+     margin: 0;
+ }
+
+.content-wrap{
+    width:800px;
+    margin:0 auto;
+    padding: 60px 0;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight:lighter;
+    letter-spacing:2.5px;
+    font-size:100px;
+    margin: 0;
+    line-height: 1;
+
+}
+
+h3{
+    letter-spacing:2px;
+    margin:2px;
+    padding-top: 10px;
+}
+p{
+    margin: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Profile------------- */
+header{
+    background-color:#f3e0ec;
+    color:#05668d ;
+    /* color:#f3e0ec; */
+    /* color: white; */
+    font-size:20px;
+    text-align :center;
+    margin-bottom: 3px;
+    /* background-image: url(https://picsum.photos/id/1045/1300/400); */
+}
+
+
+
+
+
+/* Projects------------- */
+.projects{
+    background:#f3e0ec;
+    /* background-image: url(https://picsum.photos/id/119/1300/500?blur); */
+
+
+}
+
+.projects .btn{
+    color:#f3e0ec;
+    background:#05668d ;
+    text-decoration: none;
+    padding:8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover{
+    background: rgb(5, 102, 141,80%);
+}
+
+.project-item{
+    overflow: hidden;
+}
+
+.project-item img{
+    float: left;
+    margin-right:20px;
+    padding-top :30px;
+    padding-bottom:30px;
+
+    
+
+}
+
+
+
+
+
+
+
+/* work Experience------------- */
+.work-experience{
+    background: #02c39a;
+}
+
+
+
+
+/* Education------------- */
+.content-wrap ul{
+    list-style-type: none;
+}
+
+.education{
+background-image: url(../images/ed.jpg);
+background-position: top right;
+background-size: cover;
+padding-bottom: 100px;
+
+}
+
+
+/* contact info------------- */
+footer{
+    background-color:#34252F;
+    color:#f3e0ec ;
+    text-align: center;
+}
+footer a{
+    color:#f3e0ec ;
+    padding: 10px;
+    display:inline-block;
+
+}
+
+.contact-list{
+    padding:0;
+    display:flex;
+    justify-content:center;
+
+
+}
