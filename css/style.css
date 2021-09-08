@@ -95,13 +95,10 @@ p{
 
 /* Profile------------- */
 header{
-    /* background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%); */
-    /* color:#05668d ; */
-    /* color:#f3e0ec; */
+    
     color: white;
     
     text-align :center;
-    /* margin-bottom: 3px; */
     background-image: url(https://picsum.photos/id/1045/1300/400?grayscale);
 }
 
@@ -111,7 +108,11 @@ header{
 
 /* Projects------------- */
 .projects{
-    color: hsl(0, 0%, 30%);
+    background-image:url(../images/sharon-mccutcheon-unsplash1.jpg) ;
+    -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    color:#05668d;
+    /* color: hsl(0, 0%, 30%); */
 
 }
 
@@ -175,7 +176,7 @@ padding-bottom: 100px;
 
 /* contact info------------- */
 footer{
-    background-color:#34252F;
+    background-color: #000000;
     /* background-color: hsl(0, 0%, 30%); */
     color:#f3e0ec ;
     text-align: center;
@@ -183,7 +184,7 @@ footer{
 footer a{
     color:#f3e0ec ;
     padding: 10px;
-    display:inline-block;
+    /* display:inline-block; */
 
 }
 
@@ -191,6 +192,106 @@ footer a{
     padding:0;
     display:flex;
     justify-content:center;
+    max-width:1000px;
+    align-items:center;
+    /* align-content:space-around; */
+    padding:30px;
+    margin:0 auto;
+    
+    
+    
+    
+    
+    
 
 
+}
+.contact-list div{
+    
+    width:33.33%;
+    height:100px;
+  
+
+}
+#git img{
+    width:95px;
+    height:55px;
+    margin: 0 auto;
+}
+
+
+
+#in img{
+    width: 55px;
+    height:55px;
+    margin: 0 auto;
+    
+    
+}
+
+#mail img{
+    width: 70px;
+    height:70px;
+    margin: 0 auto;
+    
+
+    
+    
+
+}
+
+#mail img:hover{
+    /* width: 100px;
+    height:100px;
+    position: relative;
+    bottom: 15px;
+    right: 5px;
+    transition: all 0.70s;
+    overflow: hidden;  */
+
+    
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+        transition: all 1.00s;
+}
+
+#in img:hover{
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+        transition: all 1.00s;
+}
+
+
+#git img:hover{
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+        transition: all 1.00s;
+}
+
+header{
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+    -ms-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;
+}
+
+.projects{
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+    -ms-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;
+
+}
+
+.education{
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+    -ms-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;
 }
