@@ -1,6 +1,6 @@
 const images = document.querySelector('header')
 images.addEventListener("click",()=>{
-    images.style.backgroundImage = "url(https://picsum.photos/id/1045/1300/400)";
+    images.style.backgroundImage = "url(https://picsum.photos/id/1045/2500/400)";
     images.style.color = "black";
      });
 
