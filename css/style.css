@@ -134,6 +134,7 @@ header{
     -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
     color:#05668d;
+    background-size: cover;
     /* color: hsl(0, 0%, 30%); */
 
 }
